@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <style>
+        .home{
+            border: 2px solid black;
+            text-align: center;
+            justify-content: space-around;
+        }
+        button{
+            justify-content: space-around;
+            border: 1px solid black;
+            margin: 75px 0px;
+            margin-left: 200px;
+            margin-right: 200px;
+            padding: 25px;
+            border-radius: 3px;
+        }
+        .clickme{
+            background-color: rgb(186, 228, 245);
+        }
+        .reset{
+            background-color: red;
+        }
+        .out{
+            text-align: center;
+            margin:45px;
+        }
+        .answer{
+            text-align: center;
+            justify-content: space-around;
+            width: auto;
+            height: auto;
+            margin: 40px;
+            padding: 0px 50px;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="home">
+
+        <h1>WELCOME EVERYONE</h1>
+        <h2>YOUR AGE IN DAYS</h2>
+        <button class="clickme" onclick="ageInDays()">CLICK ME</button>
+        <button class="reset" onclick="reset()">RESET</button>
+        <div class="out">
+            <div class="answer" id="flex-box-result"></div>
+        </div>
+
+    </div>
+
+
+    <script src="javas.js"></script>
+    
+</body>
+</html>
